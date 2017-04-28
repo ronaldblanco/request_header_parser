@@ -1,4 +1,4 @@
-var port = /*process.env.PORT || 5000 || */8080;//FOR HEROKU port Asignation
+var port = process.env.PORT || 5000 || 8080;//FOR HEROKU port Asignation
 var express = require('express');
 //var url = require('url');
 var app = express();
